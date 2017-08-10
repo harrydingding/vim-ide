@@ -20,14 +20,16 @@ mv PowerlineSymbols.otf /usr/share/fonts/
 fc-cache -vf /usr/share/fonts/ 
 mv 10-powerline-symbols.conf /etc/fonts/conf.d/ 
 
+
 # though the  ~/.bashrc make the terminal become more colorful
 export TERM="screen-256color" 
 
+
 pip show powerline-status 
+
+
 # enter /usr/local/lib/python2.7/dist-packages location
 powerline-daemon -q 
 POWERLINE_BASH_CONTINUATION=1 
 POWERLINE_BASH_SELECT=1 
 ./usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh 
-
-
