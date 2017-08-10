@@ -5,12 +5,12 @@
 - Install
 - Introduce
 
-#Install
--------
+    Install
+
 
 sudo apt-get install vim vim-scripts vim-doc
 
- install powerline
+# install powerline
 apt-get install python-pip </br>
 apt-get install git </br>
 pip install git+git://github.com/powerline/powerline </br>
@@ -21,14 +21,14 @@ fc-cache -vf /usr/share/fonts/ </br>
 mv 10-powerline-symbols.conf /etc/fonts/conf.d/ </br>
 
 
- though the  ~/.bashrc make the terminal become more colorful
+# though the  ~/.bashrc make the terminal become more colorful
 export TERM="screen-256color" </br>
 
 
 pip show powerline-status </br>
 
 
- enter /usr/local/lib/python2.7/dist-packages location
+# enter /usr/local/lib/python2.7/dist-packages location
 powerline-daemon -q </br>
 POWERLINE_BASH_CONTINUATION=1 </br>
 POWERLINE_BASH_SELECT=1 </br>
