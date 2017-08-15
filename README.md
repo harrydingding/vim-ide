@@ -10,7 +10,10 @@
 
 sudo apt-get install vim vim-scripts vim-doc
 
-### install powerline
+### bundle manegement
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+### powerline
 apt-get install python-pip </br>
 apt-get install git </br>
 pip install git+git://github.com/powerline/powerline </br>
